@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+button {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-color: #2563eb;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #2563eb !important;
+}
+
+@media (min-width: 640px) {
+  button {
+    width: auto;
+  }
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: transparent !important;
+}
